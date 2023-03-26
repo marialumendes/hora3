@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora de codar 3</title>
+</head>
+<body>
+    <script>
+
+//exercicio 1
+/*alert ("Digite dois valores")
+
+var valor1 = parseInt(prompt('Digite o primeiro número'))
+var valor2 = parseInt(prompt('Digite o segundo número'))
+
+while (valor2 <= 0) {
+  valor2 = parseFloat(prompt("Erro. Digite um outro valor que seja maior que 0:"));
+}
+
+var resultado = valor1 / valor2
+alert(`O resultado é ${resultado}`);
+*/
+
+//exercicio 2
+/*alert("CONTAGEM RECRESSIVA! A BOMBA IRÁ EXPLODIR EM 30 SEGUNDOS!")
+
+let contador = 30;
+
+function bombaRelogio (){
+    if (contador >= 0) {
+        document.write(`Tempo restante ${contador} segundos<br>`);
+        contador--;
+        setTimeout(bombaRelogio, 1000)
+    } else {
+        document.write("BOOOOM!");
+    }
+}
+bombaRelogio()
+*/
+
+
+//exercicio 3
+/*alert("Contagem regressiva para o ano novo!")
+
+let contador = 10;
+
+function regressiva (){
+    if (contador >= 0) {
+        document.write(`${contador} `);
+        contador--;
+        setTimeout(regressiva, 1000)
+    } else {
+        document.write("Feliz ano novo!");
+    }
+}
+regressiva()*/
+
+//exercicio 4
+/*const soma = (15 + 16 + 17 + 18 + 19 + 20 + 21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30 + 31 + 32 + 33 + 34 + 35 + 36 + 37 + 38 + 39 + 40 + 41 + 42 + 43 + 44 + 45 + 46 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55 + 56 + 57 + 58 + 59 + 60 + 61 + 62 + 63 + 64 + 65 + 66 + 67 + 68 + 69 + 70 + 71 + 72 + 73 + 74 + 75 + 76 + 77 + 78 + 79 + 80 + 81 + 82 + 83 + 84 + 85 + 86 + 87 + 88 + 89 + 90 + 91 + 92 + 93 + 94 + 95 + 96 + 97 + 98 + 99 + 100)
+const media = soma / 86 ; 
+
+document.write("A média aritmética de 15 a 100 é:  ", media);  
+*/
+
+//exercicio 5
+/*var valor1 = parseInt(prompt("Digite o primeiro valor: "));
+var valor2 = parseInt(prompt("Digite o segundo valor: "));
+
+var media = (valor1 + valor2) /2;
+
+document.write(`A média aritmédica é: ${media}`)
+
+for (let i = valor1 + 1; i < valor2; i++) {
+    document.write(i);
+}*/
+
+//exercico 6 
+/*alert("Digite as duas notas que serão calculadas: ")
+
+var valor1 = parseFloat(prompt("Nota 1"));
+var valor2 = parseFloat(prompt("Nota 2"));
+
+var media = (valor1 + valor2) / 2;
+if (media >= 9.5){
+    alert(`Aluno aprovado, sua média foi de: ${media}`)
+} else {
+    alert(`Aluno reprovado, sua média foi de: ${media}`)
+}
+
+var outra_media = parseInt(prompt('Deseja calcular a média de outro aluno?: 1.)Sim 2.) Não'));
+            
+    if (outra_media === 1){
+        var valor3 = parseFloat(prompt("Nota 1"));
+        var valor4 = parseFloat(prompt("Nota 2"));
+
+    var novo_aluno = valor3 + valor4
+        if (novo_aluno >= 9.5){
+            alert(`Aluno aprovado, sua média foi de: ${media}`)
+        } else  {
+            alert(`Aluno reprovado, sua média foi de: ${media}`)
+        }}
+        else if (outra_media === 2) {
+        if (media >= 9.5){
+            alert("1 aluno foi aprovado")
+        } else {
+            alert("1 aluno foi reprovado")
+            }
+            alert (`Fim do programa :)`)
+            }*/
+
+
+  //exercico 7
+/*
+var valor2 = nota('Digite a segunda nota');
+var valor3 = nota('Digite a terceira nota');
+var valor4 = nota('Digite a quarta nota');
+var valor5 = nota('Digite a quinta nota');
+var valor6 = nota('Digite a sexta nota');
+
+var media = (valor1 + valor2 + valor3 + valor4 + valor5 + valor6) / 6;
+alert(`A média deste aluno é: ${media}`);
+if (media >=8){
+    alert("O aluno está aprovado. Parabéns!")
+} else[
+    alert("O aluno foi reprovado. Tente novamente.")
+]
+
+function nota(mensagem) {
+  var nota = parseFloat(prompt(mensagem));
+  while (isNaN(nota) || nota < 0 || nota > 10) {
+    nota = parseFloat(prompt('Valor inválido. Digite novamente:'));
+  }
+  return nota;
+}*/
+
+//exercicio 8
+/*var n = parseInt(prompt('Digite um número qualquer: '));
+
+for (let i = 1; i <= n; i++) {
+  document.write(i + "<br>");
+}*/
+
+//exercicio 9
+/*alert("Vejas quais são os 10 primeiros números inteiros maiores que 100");
+document.write("Eles são: 101, 102, 103, 104, 105, 106, 107, 108, 109, 110.");
+*/
+
+//exercicio 10
+/*Escreva um programa para imprimir todas as tabuadas de 1 a N. N será informado pelo usuário.
+var n = parseInt(prompt("Digite um valor qualquer: "));
+
+for (let i = 1; i <=n; i++){
+    document.write("Tabuada do" + i + ":<br>");
+    for (let j = 1; j <= 10; j++) {
+  let tan = i * j;
+  document.write(i + "x" + j + "=" + tan + "<br>");
+}
+document.write("<br>");
+}
+*/
+
+//exercicio 11
+var dentro = 0;
+var fora = 0;
+
+for(let i = 1; i <= 10; i++) {
+    let valor = parseInt(prompt("Digite um valor: "));
+
+    if(valor >= 24 && valor <=42) {
+        dentro++;
+    }else {
+        fora++;
+    }
+}
+alert(`Quantidade de valores dentro do intervalo [24, 42]: ${dentro}\nQuantidade de valores fora do intervalo [24, 42]: ${fora}`);
+
+
+
+
+
+
+</script>
+</body>
+</html>
+
